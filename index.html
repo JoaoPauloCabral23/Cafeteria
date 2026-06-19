@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafeteria</title>
+    <title>☕ Cafeteria</title>
+
+    <link rel="icon" type="image/png" href="./ChatGPT Image 19 de jun. de 2026, 16_09_08.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">    
@@ -12,7 +14,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Café Altos Pode Crê</a>
+            <a class="navbar-brand" href="#">☕ Café Altos Pode Crê ☕</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
@@ -46,18 +48,101 @@
 
             <div class="row g-4">
                 <div class="col-md-4">
-                    
+                    <div class="card h-100">
+                        <img class="card-img-top" alt="Expresso" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCZcA65poON6LKuHic42vNiUtFWEAAZDSlw3UkJ46BPg&s=10">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Expresso</h5>
+                            <p class="card-text">Encorpado, intenso e aromático. O Clássico que nunca sai de moda.</p>
+
+                            <span class="badge bg-warning text-dark">R$ 7,00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" alt="Cappuccino" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREPoenCdOv-2K12ErXGA6HrlkYoYBSZXlm5g-BaMj61w&s=10">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Espresso com leite vaporizado e uma camada generosa de espuma</p>
+
+                            <span class="badge bg-warning text-dark">R$ 10,00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" alt="Latte" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjyuws3ShZLGCUPxEoDLds2--9LAyOnn9BmST-b2iCPQ&s=10">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Suave e cremoso. Perfeito para quem prefere um café mais leve.</p>
+
+                            <span class="badge bg-warning text-dark">R$ 12,00</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <h2>Nossa História</h2>
+                    <p class="mt-3">
+                        O Café Altos Pode Crê nasceu em 2010 com um simples objetivo: Servir o melhor café da cidade e do mundo com um ambiente Altos Pode Crê.
+                    </p>
+                    <p>
+                        Trabalhamos com grãos selecionados diretamente de pequenos produtores e torramos tudo aqui, garantindo frescor em cada xícara de café.
+                    </p>
+                    <div class="alert alert-warning mt-3" role="alert">
+                        Aberto todos os dias das 07:00 às 22:00!
+                    </div>
+                </div>
+                
+                <div class="col-md-6 text-center">
+                    <img class="img-fluid rounded shadow" alt="Interior do café" src="./ChatGPT Image 19 de jun. de 2026, 15_32_15.png">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Fale com a gente</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nome</label>
+                            <input type="text" class="form-control" placeholder="Digite seu nome">
+                        </div>
 
+                        <div class="mb-3">
+                            <label class="form-label">E-mail</label>
+                            <input type="email" class="form-control" placeholder="Digite seu E-mail">
+                        </div>
 
+                        <div class="mb-3">
+                            <label class="form-label">Mensagem</label>
+                            <textarea class="form-control" rows="4" placeholder="Escreva aqui"></textarea>
+                        </div>
 
+                        <button type="submit" class="btn btn-dark w-100">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
+    <footer class="py-4 text-center">
+        <p class="mb-0">© 2026 Café Altos Pode Crê - Feito com Bootstrap</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
